@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = Turk-Wallet
-VERSION = 1
+VERSION = 1.1
 INCLUDEPATH += src src/json src/qt
 QT += network gui core
 

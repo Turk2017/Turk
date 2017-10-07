@@ -71,6 +71,7 @@ public:
     int64_t TargetSpacing() const { return nTargetSpacing; }
     int64_t TargetTimespan() const { return nTargetTimespan; }
     int LastPoWBlock() const { return nLastPoWBlock; }
+    int NewPoWBlock() const { return nLastPoWBlock; }
     int StartPoSBlock() const { return nStartPoSBlock; }
 protected:
     CChainParams() {};
@@ -90,6 +91,7 @@ protected:
     int64_t nTargetSpacing;
     int64_t nTargetTimespan;
     int nLastPoWBlock;
+    int nNewPoWBlock;
     int nStartPoSBlock;
 };
 
